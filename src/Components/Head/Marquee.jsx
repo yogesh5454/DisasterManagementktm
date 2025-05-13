@@ -3,13 +3,13 @@ import './Marquee.css';
 
 const Marquee = () => {
   return (
-    <div className="bg-[#ec068e] py-3 text-white">
+    <div className="marquee-wrapper text-white text-sm">
       <div className="marquee-container">
-        <div className="marquee">
-          <span className="text-lg inline-block pr-10">
+        <div className="marquee-content text-lg px-45">
+          <span className="inline-block pr-200 text-md">
             European Civil Protection and Humanitarian Aid Operations
           </span>
-          <span className="text-lg inline-block pr-10">
+          <span className="inline-block  text-md">
             European Civil Protection and Humanitarian Aid Operations
           </span>
         </div>

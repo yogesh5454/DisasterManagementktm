@@ -1,17 +1,21 @@
+.marquee-wrapper {
+  background-color: #ec068e;
+  padding: 12px 180px; 
+}
+
 .marquee-container {
   overflow: hidden;
+  margin: 0 auto;
   position: relative;
-  padding-left: 45px;
-  padding-right: 45px;
 }
 
-.marquee {
-  display: flex;
+.marquee-content {
+  display: inline-block;
   white-space: nowrap;
-  animation: marquee 12s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
-.marquee:hover {
+.marquee-content:hover {
   animation-play-state: paused;
 }
 
