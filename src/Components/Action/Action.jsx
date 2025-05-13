@@ -2,7 +2,7 @@ import React from "react";
 
 const Action = () => {
   return (
-    <div className="relative px-45 ">
+    <div className="relative px-45 py-5 bg-gray-50">
       <img
         src="https://disaster-home-page-fyak.vercel.app/assets/nepal-army-ZQSRhgub.jpg"
         alt="Nepal Army"
@@ -10,8 +10,8 @@ const Action = () => {
       />
 
       <div className="absolute inset-0  flex items-center">
-        <div className="ml-70 text-white bg-[#26324bb3]">
-          <h1 className="text-5xl font-bold mb-4">
+        <div className="ml-70 p-5 text-white bg-[#26324bb3]">
+          <h1 className="text-5xl font-bold mb-2">
             At Gorkha Nepal Army In Action 2015
           </h1>
           <h3 className="text-2xl font-semibold mb-6">
