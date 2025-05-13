@@ -43,6 +43,12 @@ const Newsdata = () => {
           />
         ))}
       </div>
+      <div className="justify-self-center">
+     
+        <button className="bg-pink-500 py-2 px-3 text-white cursor-pointer hover:bg-pink-600 mb-4">
+          View all news
+        </button>
+      </div>
     </div>
   );
 };

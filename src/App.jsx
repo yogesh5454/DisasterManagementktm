@@ -1,4 +1,5 @@
 import "./App.css";
+import Action from "./Components/Action/Action";
 import Details from "./Components/Details/Details";
 import Disasterdata from "./Components/Disasterdata/Disasterdata";
 import Head from "./Components/Head/Head";
@@ -17,6 +18,7 @@ function App() {
         <Reports/>
         <Disasterdata/>
         <Newsdata/>
+        <Action/>
       </div>
     </>
   );
