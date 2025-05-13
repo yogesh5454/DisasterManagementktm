@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="px-45 flex flex-row py-10">
           {" "}
           <div className="contact basis-1/3 pr-5">
-            <h1 className="text-lg font-bold pb-2">
+            <h1 className="text-xl font-bold pb-2">
               Kathmandu Metropolitan City, Office of Municipal Executive,
               Bagmati Province
             </h1>
@@ -27,7 +27,7 @@ const Footer = () => {
             ></iframe>
           </div>
           <div className="basis-1/3">
-            <h1 className="pb-5 text-lg font-bold">Important Links</h1>
+            <h1 className="pb-5 text-xl font-bold">Important Links</h1>
             <div className="flex flex-col space-y-3 font-semibold">
               <a href="">ERCC - Emergency Response Coordination Centre</a>
               <a href="">Union Civil Protection Knowledge Network</a>
